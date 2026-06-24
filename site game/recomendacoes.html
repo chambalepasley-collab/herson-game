@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head class="bg-light link ">
+    <meta charset="=UTF-8">
+    <title>Hersongamerepack</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+   
+
+</head>
+<script>
+   function pesquisar() {
+    let pesquisa = document.getElementById("campoPesquisa").value.toLowerCase().trim();
+
+    if (pesquisa.includes("apex")) {
+        window.location.href = "destaques.html#apex";
+    }
+    else if (pesquisa.includes("cyber") || pesquisa.includes("cyberpunk")) {
+        window.location.href = "destaques.html#cyberpunk";
+    }
+    else if (pesquisa.includes("mk")) {
+        window.location.href = "destaques.html#mk1";
+    }
+    else if (pesquisa.includes("fortnite")) {
+        window.location.href = "destaques.html#fortnite";
+    }
+    else if (pesquisa.includes("gta")) {
+        window.location.href = "destaques.html#gta5";
+    }
+    else if (pesquisa.includes("minecraft")) {
+        window.location.href = "destaques.html#minecraft";
+    }
+    else if (pesquisa.includes("valorant")) {
+        window.location.href = "destaques.html#valorant";
+    }
+    else {
+        alert("Jogo não encontrado!");
+    }
+}
+
+
+</script>
+
+<body>
+    <header class="bg-light header">
+        
+            <span class="span-1">Herson</span>
+            <span class="span-2">Game</span>
+            <section class="links pesquisa">
+            <a href="http://127.0.0.1:5500/game.html">Home</a>
+            <a href="destaques.html">Destaques</a>
+            <a href="recomendacoes.html">Recomendacoes</a>
+            <a href="maneiras de jogar.html">Maneiras de Jogar</a>
+            <a href="mais.html">Mais</a>   
+        
+            <input type="text" id="campoPesquisa" placeholder="pesquisar jogos" >
+            <button onclick="pesquisar()">pesquisar</button>
+                        
+            
+
+            </section>
+            
+        </section>
+        
+    </header>
+
+    
+<section class="recomendados">
+  <h2 class="titulo-recomendados">🔥 Recomendados</h2>
+
+  <div class="recomendados-container">
+
+    <div class="card-recomendado"><img src="imagens 2/apex.jpg"><div class="titulo">Apex</div></div>
+    <div class="card-recomendado"><img src="imagens 2/cyber.jpg"><div class="titulo">Cyber Punk</div></div>
+    <div class="card-recomendado"><img src="imagens/mk1.jpg"><div class="titulo">MK 1</div></div>
+    <div class="card-recomendado"><img src="imagens 2/fortnite.jpg"><div class="titulo">Fortnite</div></div>
+    <div class="card-recomendado"><img src="imagens 2/red.jpg"><div class="titulo">Red Dead 2</div></div>
+    <div class="card-recomendado"><img src="imagens 2/gta v.jpg"><div class="titulo">GTA V</div></div>
+    <div class="card-recomendado"><img src="imagens 2/pug.jpg"><div class="titulo">PUBG</div></div>
+    <div class="card-recomendado"><img src="imagens 2/witcher.jpg"><div class="titulo">The Witcher</div></div>
+    <div class="card-recomendado"><img src="imagens 2/forza ho.jpg"><div class="titulo">Forza Horizon 5</div></div>
+    <div class="card-recomendado"><img src="imagens 2/free.jpg"><div class="titulo">Free Fire</div></div>
+    <div class="card-recomendado"><img src="imagens 2/horizon.avif"><div class="titulo">Horizon Zero Dawn</div></div>
+    <div class="card-recomendado"><img src="imagens 2/mine.jpg"><div class="titulo">Minecraft</div></div>
+    <div class="card-recomendado"><img src="imagens 2/roblox.jpg"><div class="titulo">Roblox</div></div>
+    <div class="card-recomendado"><img src="imagens 2/valorant.png"><div class="titulo">Valorant</div></div>
+    <div class="card-recomendado"><img src="imagens 2/zelda.jpg"><div class="titulo">Zelda</div></div>
+
+  </div>
+</section>
+        
+    </body>

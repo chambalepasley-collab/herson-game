@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head class="bg-light link ">
+    <meta charset="=UTF-8">
+    <title>Hersongamerepack</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+   
+
+</head>
+<script>
+   function pesquisar() {
+    let pesquisa = document.getElementById("campoPesquisa").value.toLowerCase().trim();
+
+    if (pesquisa.includes("apex")) {
+        window.location.href = "destaques.html#apex";
+    }
+    else if (pesquisa.includes("cyber") || pesquisa.includes("cyberpunk")) {
+        window.location.href = "destaques.html#cyberpunk";
+    }
+    else if (pesquisa.includes("mk")) {
+        window.location.href = "destaques.html#mk1";
+    }
+    else if (pesquisa.includes("fortnite")) {
+        window.location.href = "destaques.html#fortnite";
+    }
+    else if (pesquisa.includes("gta")) {
+        window.location.href = "destaques.html#gta5";
+    }
+    else if (pesquisa.includes("minecraft")) {
+        window.location.href = "destaques.html#minecraft";
+    }
+    else if (pesquisa.includes("valorant")) {
+        window.location.href = "destaques.html#valorant";
+    }
+    else {
+        alert("Jogo não encontrado!");
+    }
+}
+
+
+</script>
+
+<body>
+    <header class="bg-light header">
+        
+            <span class="span-1">Herson</span>
+            <span class="span-2">Game</span>
+            <section class="links pesquisa">
+            <a href="http://127.0.0.1:5500/game.html">Home</a>
+            <a href="destaques.html">Destaques</a>
+            <a href="recomendacoes.html">Recomendacoes</a>
+            <a href="maneiras de jogar.html">Maneiras de Jogar</a>
+            <a href="mais.html">Mais</a>   
+            <input type="text" id="campoPesquisa" placeholder="pesquisar jogos" >
+            <button onclick="pesquisar()">pesquisar</button>
+                        
+            
+
+            </section>
+            
+        </section>
+        <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Mais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="titulo-mais">🌐 Sites Recomendados</h1>
+
+    <div class="sites">
+
+        <a href="https://store.steampowered.com/" target="_blank" class="site-card">
+            <h2>Steam</h2>
+            <p>Uma das maiores plataformas de jogos para PC.</p>
+        </a>
+
+        <a href="https://www.epicgames.com/store/" target="_blank" class="site-card">
+            <h2>Epic Games Store</h2>
+            <p>Loja digital famosa pelos jogos gratuitos semanais.</p>
+        </a>
+
+    </div>
+
+</body>
+</html>
+        
+    </header>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head class="bg-light link ">
+    <meta charset="=UTF-8">
+    <title>Hersongamerepack</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+   
+
+</head>
+<script>
+   function pesquisar() {
+    let pesquisa = document.getElementById("campoPesquisa").value.toLowerCase().trim();
+
+    if (pesquisa.includes("apex")) {
+        window.location.href = "destaques.html#apex";
+    }
+    else if (pesquisa.includes("cyber") || pesquisa.includes("cyberpunk")) {
+        window.location.href = "destaques.html#cyberpunk";
+    }
+    else if (pesquisa.includes("mk")) {
+        window.location.href = "destaques.html#mk1";
+    }
+    else if (pesquisa.includes("fortnite")) {
+        window.location.href = "destaques.html#fortnite";
+    }
+    else if (pesquisa.includes("gta")) {
+        window.location.href = "destaques.html#gta5";
+    }
+    else if (pesquisa.includes("minecraft")) {
+        window.location.href = "destaques.html#minecraft";
+    }
+    else if (pesquisa.includes("valorant")) {
+        window.location.href = "destaques.html#valorant";
+    }
+    else {
+        alert("Jogo não encontrado!");
+    }
+}
+
+
+</script>
+
+<body>
+    <header class="bg-light header">
+        
+            <span class="span-1">Herson</span>
+            <span class="span-2">Game</span>
+            <section class="links pesquisa">
+            <a href="http://127.0.0.1:5500/game.html">Home</a>
+            <a href="destaques.html">Destaques</a>
+            <a href="recomendacoes.html">Recomendacoes</a>
+            <a href="maneiras de jogar.html">Maneiras de Jogar</a>
+            <a href="mais.html">Mais</a>   
+            <input type="text" id="campoPesquisa" placeholder="pesquisar jogos" >
+            <button onclick="pesquisar()">pesquisar</button>
+                        
+            
+
+            </section>
+            
+            
+        </section>
+       
+
+<body>
+
+<header>
+  <h1 class="titulo-pagina"> Maneiras de Jogar</h1>
+</header>
+
+<section class="plataformas">
+
+  <div class="plataforma">
+    <img src="imagens 2/coputador.jpg">
+    <h3>PC</h3>
+    <p>Joga com teclado e rato com maior desempenho e gráficos.</p>
+  </div>
+
+  <div class="plataforma">
+    <img src="imagens 2/ps.jpg">
+    <h3>PlayStation</h3>
+    <p>Experiência completa com controle e exclusivos incríveis.</p>
+  </div>
+
+  <div class="plataforma">
+    <img src="imagens 2/xbox.jpg">
+    <h3>Xbox</h3>
+    <p>Jogos fluidos com suporte a multiplayer e Game Pass.</p>
+  </div>
+
+  <div class="plataforma">
+    <img src="imagens 2/nintendo.jpg">
+    <h3>Nintendo Switch</h3>
+    <p>Joga em qualquer lugar, portátil e divertido.</p>
+  </div>
+
+  <div class="plataforma">
+    <img src="imagens 2/psv.webp">
+    <h3>PS Vita</h3>
+    <p>Portátil clássico da PlayStation para jogar em movimento.</p>
+  </div>
+
+  <div class="plataforma">
+    <img src="imagens/joy.webp">
+    <h3>Controle</h3>
+    <p>Compatível com PC e consolas para melhor experiência.</p>
+  </div>
+
+</section>
+
+</body>
+</html>
+        
+    </header>
+    
