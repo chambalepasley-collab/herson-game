@@ -3,7 +3,13 @@ body{
     background-color: rgb(33, 33, 33);
 }
 .header{
-    padding: 5px;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    flex-wrap: wrap;
+}
 }
 
 .links{
@@ -96,6 +102,25 @@ transition: 0.3s;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+}
+
+.grid-jogo card{
+    width: 90%;
+    max-width: 1200px;
+    height: 500px; /* altura fixa */
+    margin: 20px auto;
+    padding: 15px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    overflow-y: auto; /* 🔥 scroll vertical */
+    overflow-x: hidden;
+
+    background: #111;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
 }
 
 .card {
@@ -343,5 +368,25 @@ transition: 0.3s;
 
     .info-jogo h3{
         font-size: 24px;
+    }
+}
+@media (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .links a {
+        padding: 10px;
+        display: block;
     }
 }
